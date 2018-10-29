@@ -1,0 +1,122 @@
+ * {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+  }
+  .col-1 {
+    background:#FEF0E8; 
+    flex: 1;
+      
+  }
+  .col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+  }
+  .content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 110px;
+  }
+    
+  .content > article {
+    flex: 4;
+    min-height: 60vh;
+    font-size: 30px;
+    font-family: Georgia, Serif;
+    align-content: center;
+  }
+  header {
+    background: #BE1E2D;
+    height: 20vh;
+    height: 20vh;
+    font-size: 40pt;
+    font-style: italic;
+    color: white;
+    font-family: Georgia, serif;
+  }
+footer{
+    background: #BE1E2D;
+    height:15vh;
+    font-size:20pt;
+    font-family: serif;
+    color: white;
+    font-style: italic;
+    
+}
+  header, footer, article, nav {
+    padding: 1em;
+  }
+header {
+    color:white;
+    font-size: 20pt;
+    margin: 0;
+}
+header img{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width:100px;
+}
+    
+  nav{
+    font-size: 25pt;
+    font-weight: bold;
+    font-family: Georgia, serif;
+    background: #D05740;
+    font-style: italic;
+    }
+nav p{
+    font-size;25pt;
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+
+section#subscribe{
+    width 750px;
+    /*height: 700px;*/
+    text-align: center;
+    align-content: center;
+    font-style: italic;
+}
+
+div.subscribe{
+    text-align: center;
+    float:left;
+    margin: 20px;
+    border-style: solid;
+    border-color: black;
+    font-size: 40px;
+    padding: 10px;
+    font-style: italic;
+    color: #BE1E2D
+}
+div.scubscribe p{
+    align-content: center;
+    font-style: italic;
+    
+}
+div.subscribe img{
+    width: 400px;
+}
+.subscribe a{
+    text-decoration: none;
+    color: #BE1E2D;
+    font-style: italic;
+}
+
+.item{
+    width: 750px;
+    height: 250px;
+}
+p.b{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color:#BE1E2D;
+}
